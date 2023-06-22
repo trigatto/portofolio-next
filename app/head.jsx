@@ -15,7 +15,7 @@ export default function Head() {
         rel="stylesheet"
       />
       <title>
-        Thiago Rigatto | Engineer turned Front-End Developer based in Porto
+        Thiago Rigatto | Engineer turned Sales Professional based in Porto
         Alegre, BR
       </title>
 
@@ -25,7 +25,7 @@ export default function Head() {
       />
       <meta
         name="keywords"
-        content="Thiago Rigatto JS React HTML CSS Javascript Next"
+        content="Thiago Rigatto Sales B2C B2B Sales Representative Closer JS React HTML CSS Javascript Next"
       />
       <link rel="stylesheet" href="globals.css" />
 
@@ -38,7 +38,8 @@ export default function Head() {
       <meta
         prefix="og: http://ogp.me/ns#"
         property="og:title"
-        content="Thiago Rigatto | Engineer turned Front-End Developer based in Porto Alegre, BR"
+        content="Thiago Rigatto | Engineer turned Sales Professional based in Porto
+        Alegre, BR"
       />
 
       <meta

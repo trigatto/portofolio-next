@@ -11,7 +11,7 @@ export default function Resume(){
               <h1 className="logotype_name">
                 <span className="purple">Thiago </span>Rigatto
               </h1>
-              <h2 className="logotype_occupation">Frontend Web Developer</h2>
+              <h2 className="logotype_occupation">Sales Representative</h2>
             </div>
 
             <div className="header_menu_container">
@@ -62,7 +62,7 @@ export default function Resume(){
             </div>
             <div className="hello_content">
               <h2>Hey!</h2>
-              <p>
+              {/* <p>
                 As an engineer, my passion for technology drives my work, while
                 my experience in sales has taught me to understand and
                 appreciate human behavior. I am a dedicated and driven
@@ -70,6 +70,20 @@ export default function Resume(){
                 and professionally. With a natural curiosity and hunger for
                 knowledge, I am always seeking out new challenges and
                 opportunities to expand my skills.
+              </p> */}
+              <p>
+                As a sales professional with a strong engineering background, I
+                bring a unique blend of technical expertise and understanding of
+                human behavior to my work. My passion for technology fuels my
+                drive to deliver exceptional results in sales. I am dedicated,
+                driven, and committed to continuous personal and professional
+                growth. With a natural curiosity and a relentless pursuit of
+                knowledge, I thrive on seeking new challenges and seizing
+                opportunities to enhance my sales skills. I possess a deep
+                understanding of client needs, effective communication
+                techniques, and a proven track record of driving revenue growth.
+                By combining my technical acumen and sales prowess, I am
+                equipped to excel in the dynamic world of sales at BairesDev.
               </p>
             </div>
             <div id="contact" className="contact_details_content">
@@ -120,14 +134,30 @@ export default function Resume(){
           <div id="content_container">
             <div id="soft-skills" className="block">
               <h2>Soft Skills</h2>
-              <p>
+              {/* <p>
                 As a skilled front end developer, I understand the importance of
                 soft skills in creating a positive work environment and
                 delivering top-quality projects. I bring with me a range of
                 valuable soft skills.
+              </p> */}
+              <p>
+                Throughout my career, I have honed a comprehensive set of soft
+                skills that are crucial for success in sales. My experiences
+                living overseas have significantly enhanced my communication
+                skills, enabling me to effectively collaborate with
+                cross-functional teams and understand the unique needs of
+                clients and end-users. Moreover, my background in engineering
+                has cultivated my creativity, adaptability, and problem-solving
+                abilities, empowering me to tackle complex challenges with
+                innovative solutions. Over the course of seven years in sales, I
+                have demonstrated strong leadership skills by successfully
+                leading sales teams through effective communication and
+                collaboration. As a result, I have consistently delivered
+                outstanding results on every project I have undertaken. My key
+                soft skills for excelling in a sales role include:
               </p>
               <div className="philosophy_content">
-                <p>
+                {/* <p>
                   My experiences living overseas have perfected my communication
                   skills, this is vital for collaborating with cross-functional
                   teams and understanding the needs of clients and end-users.
@@ -148,6 +178,44 @@ export default function Resume(){
                   <li>Creativity</li>
                   <li>Proactivity</li>
                   <li>Leadership</li>
+                </ul> */}
+
+                <ul>
+                  <li>
+                    <strong>Persuasive communication:</strong> Expertise in
+                    articulating value propositions and building strong
+                    relationships with clients.
+                  </li>
+                  <li>
+                    <strong>Problem-solving:</strong> A strategic approach to
+                    identifying and addressing client challenges, ensuring
+                    optimal solutions are delivered.
+                  </li>
+                  <li>
+                    <strong>Critical thinking:</strong> The ability to analyze
+                    market trends, customer needs, and competitive landscapes to
+                    drive sales strategies.
+                  </li>
+                  <li>
+                    <strong>Adaptability:</strong> Rapidly adapting to evolving
+                    market dynamics and client requirements, ensuring continued
+                    sales success.
+                  </li>
+                  <li>
+                    <strong>Creative thinking:</strong> Leveraging innovative
+                    approaches to overcome obstacles and generate unique selling
+                    propositions.
+                  </li>
+                  <li>
+                    <strong>Proactivity:</strong> Taking initiative to identify
+                    new sales opportunities, cultivate leads, and drive revenue
+                    growth.
+                  </li>
+                  <li>
+                    <strong>Leadership:</strong> Proven ability to inspire and
+                    motivate sales teams, fostering a collaborative and
+                    high-performing environment.
+                  </li>
                 </ul>
                 <div className="clear"></div>
               </div>
@@ -162,7 +230,7 @@ export default function Resume(){
 
             <div id="tech-skills" className="block">
               <h2>Tech Skills</h2>
-              <p>
+              {/* <p>
                 Here are some of the technical skills and tools that I am
                 proficient in.
               </p>
@@ -174,18 +242,42 @@ export default function Resume(){
                 <li>CSS</li>
                 <li>Responsive Design</li>
                 <li>Acessibility</li>
+              </ul> */}
+              <p>
+                Proficient in utilizing technology to enhance sales processes
+                and drive revenue growth.
+              </p>
+              <ul>
+                <li>
+                  <strong>HTML:</strong> Knowledge of HTML for creating visually
+                  appealing and user-friendly content.
+                </li>
+                <li>
+                  <strong>JavaScript:</strong> Familiarity with JavaScript to
+                  enhance interactivity and user experience.
+                </li>
+                <li>
+                  React: Understanding of React framework to develop dynamic and
+                  responsive web applications.
+                </li>
+                <li>
+                  <strong>Next.js:</strong> Experience with Next.js for building
+                  scalable and performant web solutions.
+                </li>
+                <li>
+                  <strong>Next.js:</strong> Experience with Next.js for building
+                  scalable and performant web solutions.
+                </li>
+                <li>
+                  <strong>Responsive Design:</strong> Ability to develop
+                  websites that seamlessly adapt to various screen sizes and
+                  devices.
+                </li>
+                <li>
+                  <strong>Accessibility:</strong> Knowledge of accessibility
+                  standards to ensure inclusivity and usability for all users.
+                </li>
               </ul>
-              {/* <h1>Profile</h1>
-              <blockquote className="profile_quote">
-          <p>
-            "There is no end to education. It is not that you read a book, pass
-            an examination, and finish with education. The whole of life, from
-            the moment you are born to the moment you die, is a process of
-            learning."
-          </p>
-          <p>Jiddu Krishnamurti.</p>
-          <span className="entypo-quote"></span>
-        </blockquote>  */}
             </div>
             <div className="horizontal_line">
               <div className="line_left"></div>
@@ -200,27 +292,37 @@ export default function Resume(){
                 <h3>2019/2 - 2022/2 - Me Salva! Cursos e Consultorias Ltda</h3>
                 <h4 className="purple">Role: Head of B2B Sales</h4>
                 <p>
-                  Main Activities: Define, articulate and implement the
+                  Main Activities: Defined, articulated, and implemented the
                   organization's strategy for selling the B2B product.
-                  Negotiating contracts with prospective clients. Preparing
-                  weekly and monthly reports. Giving sales presentations to
-                  prospective clients. Managing accounts. Recruiting and hiring.
-                  Team management.
+                  Negotiated contracts with prospective clients. Prepared weekly
+                  and monthly reports. Delivered sales presentations to
+                  prospective clients. Managed accounts. Led the development and
+                  structuring of the B2B department. Oversaw pre-sales, sales,
+                  customer success, and platform improvement discussions with
+                  multiple departments. Built and led a team to handle the growing demands
+                  of the B2B segment. Achieved a renewable revenue of R$400k in 2020 while working by myself and
+                   1 million R$ in 2022 with a team of four, contributing to the company's overall revenue
+                  growth to R$12M in a single year.
                 </p>
               </div>
               <h3>2018/1 - 2019/1 - Me Salva! Cursos e Consultorias Ltda</h3>
               <h4 className="purple">Role: Sales Analyst</h4>
               <p>
-                Main Activities: B2C sales via intercom. Assistance with the
-                ambassador program. Organization of the scholarship program. B2C
-                sales via telephone. Participation in Marketing events.
+                Main Activities: Consistently recognized as the salesperson of
+                the week and month. Conducted B2C sales via intercom and
+                telephone. Assisted with the ambassador program and the
+                organization of the scholarship program. Participated in
+                marketing events.
               </p>
               <h3>2017/2 - Me Salva! Cursos e Consultorias Ltda</h3>
               <h4 className="purple">Role: Intern</h4>
               <p>
-                Main Activities: B2C sales via intercom. Assistance with the
-                ambassador program. Organization of the scholarship program. B2C
-                sales via telephone. Participation in Marketing events.
+                Main Activities: Excelled as the salesperson of the week and
+                month during the internship. Demonstrated exceptional
+                performance in B2C sales via intercom and telephone. Provided
+                valuable support to the ambassador program. Assisted in the
+                organization of the scholarship program. Actively participated
+                in marketing events.
               </p>
               <h3>
                 2017/2 – Representative of Me Salva! at the Federal University
